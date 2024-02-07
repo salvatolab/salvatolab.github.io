@@ -116,17 +116,16 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-/* Estilos padrão para o cabeçalho */
 #header {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  padding: 1.5rem 0; /* Use rem ou em em vez de pixels */
+  padding: 15px 0;
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
 #header .logo {
-  font-size: 2.5vw; /* Use vw (viewport width) para dimensionar o texto de acordo com a largura da tela */
+  font-size: 30px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -134,6 +133,13 @@ h6 {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  max-height: 70px;
+  max-width: 100%; /* Garante que a largura da imagem não exceda a largura do contêiner pai */
+  height: auto; /* Ajusta automaticamente a altura para manter a proporção */
+}
+
+#header .logo a {
+  color: #1888b4;
 }
 
 #header .logo a {
@@ -143,18 +149,6 @@ h6 {
 #header .logo img {
   max-height: 70px;
 }
-
-/* Media Query para telas menores que 768px */
-@media (max-width: 768px) {
-  #header {
-    padding: 1rem 0; /* Reduza o padding para telas menores */
-  }
-
-  #header .logo {
-    font-size: 24px; /* Reduza o tamanho da fonte para telas menores */
-  }
-}
-
 
 /**
 * Get Startet Button 
