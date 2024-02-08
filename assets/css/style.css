@@ -875,22 +875,14 @@ section {
 # Trainers
 --------------------------------------------------------------*/
 
-
-.richard-fernanda {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+ .richard-fernanda {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-left: auto; /* Margem à esquerda automática */
+  margin-right: auto; /* Margem à direita automática */
+  max-width: 1000px; /* Defina uma largura máxima para a seção */
 }
-
-
- .container-centralized {
-      margin: 0 auto;
-      max-width: 1200px;
-      padding: 0 15px;
-    }
-
-
 
 
 
