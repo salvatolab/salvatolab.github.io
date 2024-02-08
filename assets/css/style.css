@@ -146,20 +146,6 @@ h6 {
   color: #1888b4;
 }
 
-/* Estilos para a imagem do logotipo no cabeçalho */
-#header .logo img {
-  max-height: 70px; /* Define a altura máxima da imagem */
-  max-width: 100%; /* Garante que a largura da imagem não exceda a largura do contêiner pai */
-  height: auto; /* Ajusta automaticamente a altura para manter a proporção */
-}
-
-/* Media Query para telas menores que 768px */
-@media (max-width: 768px) {
-  #header .logo img {
-    max-height: 50px; /* Reduza a altura da imagem para telas menores */
-  }
-}
-
 /**
 * Get Startet Button 
 */
@@ -521,13 +507,12 @@ h6 {
 }
 
 #fotofinal .img-fluid {
-  /* max-width: 300px; Ajuste conforme necessário */
+  max-width: 300px; Ajuste conforme necessário */
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block; 
-  max-height: 70px; /* Define a altura máxima da imagem */
-  max-width: 100%; /* Garante que a largura da imagem não exceda a largura do contêiner pai */
+  
 }
 
 /* Media Query para telas menores que 768px */
