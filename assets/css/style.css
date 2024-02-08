@@ -1180,6 +1180,13 @@ section {
   padding: 0 30px;
   margin-bottom: 60px;
   position: relative;
+
+
+  display: flex;
+ flex-direction: column;
+ justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .events .card-img {
