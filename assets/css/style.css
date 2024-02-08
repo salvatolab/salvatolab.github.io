@@ -507,19 +507,12 @@ h6 {
 }
 
 #fotofinal .img-fluid {
-  max-width: 300px; Ajuste conforme necessário */
+  max-width: 300px; /*Ajuste conforme necessário */
   height: auto;
   margin-left: auto;
   margin-right: auto;
   display: block; 
   
-}
-
-/* Media Query para telas menores que 768px */
-@media (max-width: 768px) {
-  #fotofinal .img-fluid {
-    max-height: 50px; /* Reduza a altura da imagem para telas menores */
-  }
 }
 
 
