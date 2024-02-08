@@ -877,9 +877,13 @@ section {
 
 #richard-fernanda {
  
-  /* min-height: 100vh; Isso garante que a seção ocupe pelo menos toda a altura da tela */
+  /* min-height: 100vh; Isso garante que a seção ocupe pelo menos toda a altura da tela 
   margin-left: 330px;
-  margin-right: auto;
+  margin-right: auto;*/
+  
+   display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
 }
 .outras-pessoas {
   max-width: 900px; /* Defina o tamanho máximo desejado */
