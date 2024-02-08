@@ -875,16 +875,25 @@ section {
 # Trainers
 --------------------------------------------------------------*/
 
-#richard-fernanda {
- 
-  /* min-height: 100vh; Isso garante que a seção ocupe pelo menos toda a altura da tela 
-  margin-left: 330px;
-  margin-right: auto;*/
-  
-   display: flex;
+
+
+.richard-fernanda .container {
+  display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
+  margin-left: auto; /* Margem à esquerda automática */
+  margin-right: auto; /* Margem à direita automática */
+  max-width: 1000px; /* Defina uma largura máxima para a seção */
 }
+
+
+
+
+
+
+
+
+
 .outras-pessoas {
   max-width: 900px; /* Defina o tamanho máximo desejado */
   margin-left: auto; /* Centraliza na horizontal */
