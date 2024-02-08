@@ -876,19 +876,12 @@ section {
 --------------------------------------------------------------*/
 
 
-
 .richard-fernanda {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  min-height: 100vh; /* Ajuste conforme necessário */
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
 }
-
-.richard-fernanda .container {
-  max-width: 1000px; /* Defina uma largura máxima para a seção */
-  width: 100%; /* Ocupa toda a largura disponível */
-}
-
 
 
 
