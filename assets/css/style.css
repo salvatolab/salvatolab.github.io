@@ -875,16 +875,11 @@ section {
 # Trainers
 --------------------------------------------------------------*/
 
- .richard-fernanda {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  margin-left: auto; /* Margem à esquerda automática */
-  margin-right: auto; /* Margem à direita automática */
-  max-width: 1000px; /* Defina uma largura máxima para a seção */
+.richard-fernanda {
+  max-width: 900px;
+  align-items: center;
+  margin: auto;
 }
-
-
 
 
 .outras-pessoas {
