@@ -110,13 +110,43 @@
           <a href="courses.html" class="btn-get-started">See what we’ve been working on</a>
         </div>
       </div>
-      <div class="col-md-4"></div> <!-- Adicione uma coluna vazia -->
-      <div class="col-md-4 d-flex align-items-center justify-content-center">
-        <img src="https://raw.githubusercontent.com/salvatolab/salvatolab.github.io/dfac5d22f44044cbe06748e7a373d04b2596ce5e/assets/img/capa.svg" alt="" class="hero-image" style="max-width: 900px; height: auto; width: 500px;">
+      
+      <div class="col-md-8">
+        <div class="hero-image-wrapper text-center"> <!-- Remova a classe d-flex e adicione text-center -->
+          <img src="https://raw.githubusercontent.com/salvatolab/salvatolab.github.io/dfac5d22f44044cbe06748e7a373d04b2596ce5e/assets/img/capa.svg" alt="" class="hero-image img-fluid">
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  @media (min-width: 768px) {
+    .hero-image-wrapper {
+      max-width: 100%; /* Defina um tamanho máximo para a imagem */
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image {
+      max-width: 100%; /* Defina um tamanho máximo para a imagem */
+      height: auto; /* Mantenha a proporção da imagem */
+    }
+  }
+
+  /* Ajuste o tamanho das colunas */
+  @media (min-width: 992px) {
+    .col-md-4 {
+      flex: 0 0 35%; /* Define a largura da primeira coluna como 25% */
+      max-width: 35%;
+    }
+
+    .col-md-8 {
+      flex: 0 0 65%; /* Define a largura da segunda coluna como 75% */
+      max-width: 65%;
+    }
+  }
+</style>
 
 
 
