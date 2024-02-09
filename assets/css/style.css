@@ -431,12 +431,12 @@ h6 {
 }
 
 #hero .hero-image {
-  max-width: 800px; /* Ajuste conforme necessário */
-  height: auto; /* Mantém a proporção da imagem */
-  float: left; /* Faz com que a imagem flutue à esquerda */
-  margin-left: 150px; /* Adiciona espaçamento à direita da imagem */
-  margin-right: 0; /* Remove a margem da direita */
-  margin-bottom: 20px; /* Adiciona espaçamento na parte inferior da imagem */
+  /*max-width: 800px; /* Ajuste conforme necessário */
+  /*height: auto; /* Mantém a proporção da imagem */
+  /*float: left; /* Faz com que a imagem flutue à esquerda */
+  margin-left: auto; /* Adiciona espaçamento à direita da imagem */
+  margin-right: auto; /* Remove a margem da direita */
+  /*margin-bottom: 20px; /* Adiciona espaçamento na parte inferior da imagem */
 }
 
 #hero .text-content {
